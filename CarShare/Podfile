@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CarShare' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+    pod 'Alamofire'
+    pod 'AlamofireNetworkActivityIndicator'
+    pod 'ObjectMapper'
+    
+    pod 'MJRefresh'
+    pod 'MBProgressHUD'
+    pod 'SVProgressHUD'
+    
+    pod 'Then'
+    pod 'SnapKit'
+    pod 'Kingfisher'
+    pod 'IQKeyboardManagerSwift'
+    
+    pod 'MessageKit'
+    pod 'Starscream'
+
+  # Pods for CarShare
+
+end

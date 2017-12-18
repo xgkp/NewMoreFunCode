@@ -1,0 +1,42 @@
+//
+//  CarShare-Prefix.pch
+//  CarShare
+//
+//  Created by Pro on 2017/12/13.
+//
+
+#ifndef CarShare_Prefix_pch
+#define CarShare_Prefix_pch
+
+
+
+// 所有导入的类都要写在OBJC里面 C编译处理
+#ifdef __OBJC__
+
+#import "AFNetworking.h"
+#import "AppOcNetRequest.h"
+#import "MBProgressHUD+MJ.h"
+
+#endif
+
+// 混编所需
+
+// Block弱引用
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+// 系统高度
+#define APP_WIDTH                [[UIScreen mainScreen] bounds].size.width
+#define APP_HEIGHT               [[UIScreen mainScreen] bounds].size.height
+#define Tab_Height               49
+#define Nav_Height               64
+
+// ******************** URL  ********************
+
+#define curlWith(url) [NSString stringWithFormat:@"%@%@",AppURL,url]
+
+#define AppURL      @"http://39.108.105.254/"
+
+
+
+#endif /* CarShare_Prefix_pch */
+
+

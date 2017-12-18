@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeController" customModule="CarShare" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XUc-YR-Kie">
+                    <rect key="frame" x="0.0" y="20" width="375" height="0.0"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="g0r-tz-7Ct"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VWF-j3-6Nb">
+                    <rect key="frame" x="0.0" y="20" width="375" height="110"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="otW-Mb-RWo">
+                            <rect key="frame" x="0.0" y="60" width="375" height="50"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDw-bG-ZB6">
+                                    <rect key="frame" x="187" y="15" width="1" height="20"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="1" id="19m-5S-AIX"/>
+                                        <constraint firstAttribute="height" constant="20" id="mvg-r9-9px"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMP-bG-paf">
+                                    <rect key="frame" x="0.0" y="0.0" width="187" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="xDH-rh-PNo"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="新能源汽车" image="green_car">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppl-gm-w3l">
+                                    <rect key="frame" x="188" y="0.0" width="187" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="P7U-If-787"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="燃气汽车" image="yellow_car">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="ppl-gm-w3l" firstAttribute="leading" secondItem="zDw-bG-ZB6" secondAttribute="trailing" id="10i-qJ-ogm"/>
+                                <constraint firstItem="zDw-bG-ZB6" firstAttribute="centerX" secondItem="otW-Mb-RWo" secondAttribute="centerX" id="4lf-py-m62"/>
+                                <constraint firstAttribute="bottom" secondItem="ppl-gm-w3l" secondAttribute="bottom" id="7K6-0V-auB"/>
+                                <constraint firstItem="zDw-bG-ZB6" firstAttribute="leading" secondItem="CMP-bG-paf" secondAttribute="trailing" id="9GX-KR-eQ9"/>
+                                <constraint firstItem="zDw-bG-ZB6" firstAttribute="centerX" secondItem="otW-Mb-RWo" secondAttribute="centerX" id="GWa-2i-CAB"/>
+                                <constraint firstItem="CMP-bG-paf" firstAttribute="leading" secondItem="otW-Mb-RWo" secondAttribute="leading" id="YbB-4H-2qs"/>
+                                <constraint firstItem="zDw-bG-ZB6" firstAttribute="centerY" secondItem="otW-Mb-RWo" secondAttribute="centerY" id="eHG-Se-EKR"/>
+                                <constraint firstAttribute="height" constant="50" id="itj-cO-LFZ"/>
+                                <constraint firstAttribute="trailing" secondItem="ppl-gm-w3l" secondAttribute="trailing" id="k48-Je-vYe"/>
+                                <constraint firstAttribute="bottom" secondItem="CMP-bG-paf" secondAttribute="bottom" id="pGH-QU-JKi"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7Y-nf-lGh">
+                            <rect key="frame" x="0.0" y="5" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="RPm-5C-aRy"/>
+                                <constraint firstAttribute="width" constant="50" id="frk-Ob-xtV"/>
+                            </constraints>
+                            <state key="normal" image="icon_personal"/>
+                            <connections>
+                                <action selector="PersonalInfoAction:" destination="-1" eventType="touchUpInside" id="555-QM-MQF"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sml_logo" translatesAutoresizingMaskIntoConstraints="NO" id="oZN-5O-Wpc">
+                            <rect key="frame" x="65" y="5" width="245" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Yfp-6e-wBh"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ExJ-BP-HRk">
+                            <rect key="frame" x="325" y="5" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="Oiu-UU-EKT"/>
+                                <constraint firstAttribute="height" constant="50" id="x7W-u8-hU2"/>
+                            </constraints>
+                            <state key="normal" image="icon_news"/>
+                            <connections>
+                                <action selector="MessageInfoAction:" destination="-1" eventType="touchUpInside" id="1WT-wD-azN"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="otW-Mb-RWo" firstAttribute="top" secondItem="h7Y-nf-lGh" secondAttribute="bottom" constant="5" id="9Y9-sa-5rd"/>
+                        <constraint firstItem="otW-Mb-RWo" firstAttribute="top" secondItem="ExJ-BP-HRk" secondAttribute="bottom" constant="5" id="Akl-77-jZh"/>
+                        <constraint firstItem="otW-Mb-RWo" firstAttribute="leading" secondItem="VWF-j3-6Nb" secondAttribute="leading" id="D7U-q3-Evq"/>
+                        <constraint firstAttribute="bottom" secondItem="otW-Mb-RWo" secondAttribute="bottom" id="Gki-wS-B9b"/>
+                        <constraint firstItem="oZN-5O-Wpc" firstAttribute="leading" secondItem="h7Y-nf-lGh" secondAttribute="trailing" constant="15" id="bgU-5d-pKu"/>
+                        <constraint firstItem="ExJ-BP-HRk" firstAttribute="leading" secondItem="oZN-5O-Wpc" secondAttribute="trailing" constant="15" id="d36-Z7-SHj"/>
+                        <constraint firstAttribute="trailing" secondItem="ExJ-BP-HRk" secondAttribute="trailing" id="ltj-IZ-7dk"/>
+                        <constraint firstAttribute="height" constant="110" id="mVZ-oJ-dhT"/>
+                        <constraint firstAttribute="trailing" secondItem="otW-Mb-RWo" secondAttribute="trailing" id="n2F-1X-ME6"/>
+                        <constraint firstItem="h7Y-nf-lGh" firstAttribute="leading" secondItem="VWF-j3-6Nb" secondAttribute="leading" id="tW3-gq-tFY"/>
+                        <constraint firstItem="otW-Mb-RWo" firstAttribute="top" secondItem="oZN-5O-Wpc" secondAttribute="bottom" constant="5" id="xlO-Th-pZ6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XUc-YR-Kie" secondAttribute="trailing" id="5Wd-T3-zg2"/>
+                <constraint firstItem="XUc-YR-Kie" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hRJ-Sp-3xc"/>
+                <constraint firstItem="XUc-YR-Kie" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="nch-Be-gtP"/>
+                <constraint firstItem="VWF-j3-6Nb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="olB-YS-XSu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VWF-j3-6Nb" secondAttribute="trailing" id="pow-Pb-Mjr"/>
+                <constraint firstItem="VWF-j3-6Nb" firstAttribute="top" secondItem="XUc-YR-Kie" secondAttribute="bottom" id="wFT-Sb-A6I"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-192" y="31"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="green_car" width="25" height="9"/>
+        <image name="icon_news" width="16" height="16"/>
+        <image name="icon_personal" width="16" height="16"/>
+        <image name="sml_logo" width="96" height="23"/>
+        <image name="yellow_car" width="23" height="9"/>
+    </resources>
+</document>

@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157F46A51FE04C6100DBBD0A /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F46A41FE04C6100DBBD0A /* BaseController.swift */; };
+		157F46A71FE04C9D00DBBD0A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F46A61FE04C9D00DBBD0A /* BaseNavigationController.swift */; };
+		157F46A91FE04D2300DBBD0A /* BaseWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F46A81FE04D2300DBBD0A /* BaseWebController.swift */; };
+		157F46AB1FE04EE400DBBD0A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F46AA1FE04EE400DBBD0A /* Common.swift */; };
+		157F46AE1FE052F600DBBD0A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F46AC1FE052F600DBBD0A /* HomeController.swift */; };
+		157F46AF1FE052F600DBBD0A /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157F46AD1FE052F600DBBD0A /* HomeController.xib */; };
+		157F46B41FE0549E00DBBD0A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F46B21FE0549E00DBBD0A /* LoginController.swift */; };
+		157F46B51FE0549E00DBBD0A /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157F46B31FE0549E00DBBD0A /* LoginController.xib */; };
+		157F46B81FE054C900DBBD0A /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F46B61FE054C900DBBD0A /* RegisterController.swift */; };
+		157F46B91FE054C900DBBD0A /* RegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157F46B71FE054C900DBBD0A /* RegisterController.xib */; };
+		157F46BC1FE0550900DBBD0A /* FogetPassWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F46BA1FE0550900DBBD0A /* FogetPassWordController.swift */; };
+		157F46BD1FE0550900DBBD0A /* FogetPassWordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157F46BB1FE0550900DBBD0A /* FogetPassWordController.xib */; };
+		15B537C31FE10516003689AE /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B537C11FE10516003689AE /* MessageController.swift */; };
+		15B537C41FE10516003689AE /* MessageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B537C21FE10516003689AE /* MessageController.xib */; };
+		15B537C71FE10BA1003689AE /* PersonalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B537C51FE10BA1003689AE /* PersonalController.swift */; };
+		15B537C81FE10BA1003689AE /* PersonalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B537C61FE10BA1003689AE /* PersonalController.xib */; };
+		15FB8C611FE01F70005E1E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB8C601FE01F70005E1E19 /* AppDelegate.swift */; };
+		15FB8C631FE01F70005E1E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB8C621FE01F70005E1E19 /* ViewController.swift */; };
+		15FB8C661FE01F70005E1E19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FB8C641FE01F70005E1E19 /* Main.storyboard */; };
+		15FB8C681FE01F70005E1E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FB8C671FE01F70005E1E19 /* Assets.xcassets */; };
+		15FB8C6B1FE01F70005E1E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FB8C691FE01F70005E1E19 /* LaunchScreen.storyboard */; };
+		2969405EAEEAF39901B8532B /* Pods_CarShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54682E359077D306713C8E1F /* Pods_CarShare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		157F46A41FE04C6100DBBD0A /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		157F46A61FE04C9D00DBBD0A /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		157F46A81FE04D2300DBBD0A /* BaseWebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebController.swift; sourceTree = "<group>"; };
+		157F46AA1FE04EE400DBBD0A /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		157F46AC1FE052F600DBBD0A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		157F46AD1FE052F600DBBD0A /* HomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		157F46B21FE0549E00DBBD0A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		157F46B31FE0549E00DBBD0A /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		157F46B61FE054C900DBBD0A /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		157F46B71FE054C900DBBD0A /* RegisterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterController.xib; sourceTree = "<group>"; };
+		157F46BA1FE0550900DBBD0A /* FogetPassWordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogetPassWordController.swift; sourceTree = "<group>"; };
+		157F46BB1FE0550900DBBD0A /* FogetPassWordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FogetPassWordController.xib; sourceTree = "<group>"; };
+		15B537C11FE10516003689AE /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		15B537C21FE10516003689AE /* MessageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageController.xib; sourceTree = "<group>"; };
+		15B537C51FE10BA1003689AE /* PersonalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalController.swift; sourceTree = "<group>"; };
+		15B537C61FE10BA1003689AE /* PersonalController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalController.xib; sourceTree = "<group>"; };
+		15FB8C5D1FE01F70005E1E19 /* CarShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FB8C601FE01F70005E1E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15FB8C621FE01F70005E1E19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15FB8C651FE01F70005E1E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15FB8C671FE01F70005E1E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15FB8C6A1FE01F70005E1E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15FB8C6C1FE01F70005E1E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		15FB8D871FE04208005E1E19 /* CarShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarShare-Prefix.pch"; sourceTree = "<group>"; };
+		36A77EB677AFE2F1A43CE3B2 /* Pods-CarShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarShare/Pods-CarShare.debug.xcconfig"; sourceTree = "<group>"; };
+		54682E359077D306713C8E1F /* Pods_CarShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE52AC0678B67318DBA9FA4F /* Pods-CarShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarShare/Pods-CarShare.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15FB8C5A1FE01F70005E1E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2969405EAEEAF39901B8532B /* Pods_CarShare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157F469A1FE04AB900DBBD0A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				157F46A41FE04C6100DBBD0A /* BaseController.swift */,
+				157F46A61FE04C9D00DBBD0A /* BaseNavigationController.swift */,
+				157F46A81FE04D2300DBBD0A /* BaseWebController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		157F469B1FE04B3B00DBBD0A /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		157F469C1FE04B3B00DBBD0A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				157F46AC1FE052F600DBBD0A /* HomeController.swift */,
+				157F46AD1FE052F600DBBD0A /* HomeController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		157F469D1FE04B3B00DBBD0A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				157F46B21FE0549E00DBBD0A /* LoginController.swift */,
+				157F46B31FE0549E00DBBD0A /* LoginController.xib */,
+				157F46B61FE054C900DBBD0A /* RegisterController.swift */,
+				157F46B71FE054C900DBBD0A /* RegisterController.xib */,
+				157F46BA1FE0550900DBBD0A /* FogetPassWordController.swift */,
+				157F46BB1FE0550900DBBD0A /* FogetPassWordController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		157F46B01FE053BE00DBBD0A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				15B537C11FE10516003689AE /* MessageController.swift */,
+				15B537C21FE10516003689AE /* MessageController.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		157F46B11FE053BF00DBBD0A /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				15B537C51FE10BA1003689AE /* PersonalController.swift */,
+				15B537C61FE10BA1003689AE /* PersonalController.xib */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		15FB8C541FE01F70005E1E19 = {
+			isa = PBXGroup;
+			children = (
+				15FB8C5F1FE01F70005E1E19 /* CarShare */,
+				15FB8C5E1FE01F70005E1E19 /* Products */,
+				6C5A8AE7DF59D9D7C0B16C05 /* Pods */,
+				8C05B777672C4CF3EFBF9D6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15FB8C5E1FE01F70005E1E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15FB8C5D1FE01F70005E1E19 /* CarShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15FB8C5F1FE01F70005E1E19 /* CarShare */ = {
+			isa = PBXGroup;
+			children = (
+				15FB8C601FE01F70005E1E19 /* AppDelegate.swift */,
+				15FB8D871FE04208005E1E19 /* CarShare-Prefix.pch */,
+				157F46AA1FE04EE400DBBD0A /* Common.swift */,
+				15FB8C791FE03C23005E1E19 /* Classes */,
+				15FB8C731FE0214C005E1E19 /* Supporting Files */,
+			);
+			path = CarShare;
+			sourceTree = "<group>";
+		};
+		15FB8C731FE0214C005E1E19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15FB8C671FE01F70005E1E19 /* Assets.xcassets */,
+				15FB8C6C1FE01F70005E1E19 /* Info.plist */,
+				15FB8C691FE01F70005E1E19 /* LaunchScreen.storyboard */,
+				15FB8C641FE01F70005E1E19 /* Main.storyboard */,
+				15FB8C621FE01F70005E1E19 /* ViewController.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15FB8C791FE03C23005E1E19 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15FB8C7A1FE03C23005E1E19 /* ModelViews */,
+				15FB8C7B1FE03C23005E1E19 /* Tools */,
+				15FB8C7D1FE03C23005E1E19 /* Models */,
+				15FB8C7E1FE03C23005E1E19 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		15FB8C7A1FE03C23005E1E19 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		15FB8C7B1FE03C23005E1E19 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		15FB8C7D1FE03C23005E1E19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15FB8C7E1FE03C23005E1E19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				157F469A1FE04AB900DBBD0A /* Base */,
+				157F469C1FE04B3B00DBBD0A /* Home */,
+				157F469D1FE04B3B00DBBD0A /* Login */,
+				157F46B01FE053BE00DBBD0A /* Message */,
+				157F46B11FE053BF00DBBD0A /* PersonalCenter */,
+				157F469B1FE04B3B00DBBD0A /* Setting */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C5A8AE7DF59D9D7C0B16C05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36A77EB677AFE2F1A43CE3B2 /* Pods-CarShare.debug.xcconfig */,
+				CE52AC0678B67318DBA9FA4F /* Pods-CarShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C05B777672C4CF3EFBF9D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54682E359077D306713C8E1F /* Pods_CarShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15FB8C5C1FE01F70005E1E19 /* CarShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FB8C6F1FE01F70005E1E19 /* Build configuration list for PBXNativeTarget "CarShare" */;
+			buildPhases = (
+				AA30B57E16A4B95D65DFBF4B /* [CP] Check Pods Manifest.lock */,
+				15FB8C591FE01F70005E1E19 /* Sources */,
+				15FB8C5A1FE01F70005E1E19 /* Frameworks */,
+				15FB8C5B1FE01F70005E1E19 /* Resources */,
+				64A3F725AC06FD10B2845CBB /* [CP] Embed Pods Frameworks */,
+				3256EE0478586E8F1252355C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarShare;
+			productName = CarShare;
+			productReference = 15FB8C5D1FE01F70005E1E19 /* CarShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15FB8C551FE01F70005E1E19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					15FB8C5C1FE01F70005E1E19 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 15FB8C581FE01F70005E1E19 /* Build configuration list for PBXProject "CarShare" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15FB8C541FE01F70005E1E19;
+			productRefGroup = 15FB8C5E1FE01F70005E1E19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15FB8C5C1FE01F70005E1E19 /* CarShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15FB8C5B1FE01F70005E1E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157F46AF1FE052F600DBBD0A /* HomeController.xib in Resources */,
+				15FB8C6B1FE01F70005E1E19 /* LaunchScreen.storyboard in Resources */,
+				157F46B91FE054C900DBBD0A /* RegisterController.xib in Resources */,
+				15FB8C681FE01F70005E1E19 /* Assets.xcassets in Resources */,
+				157F46B51FE0549E00DBBD0A /* LoginController.xib in Resources */,
+				15FB8C661FE01F70005E1E19 /* Main.storyboard in Resources */,
+				15B537C81FE10BA1003689AE /* PersonalController.xib in Resources */,
+				157F46BD1FE0550900DBBD0A /* FogetPassWordController.xib in Resources */,
+				15B537C41FE10516003689AE /* MessageController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3256EE0478586E8F1252355C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarShare/Pods-CarShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A3F725AC06FD10B2845CBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CarShare/Pods-CarShare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarShare/Pods-CarShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA30B57E16A4B95D65DFBF4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FB8C591FE01F70005E1E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B537C31FE10516003689AE /* MessageController.swift in Sources */,
+				157F46A71FE04C9D00DBBD0A /* BaseNavigationController.swift in Sources */,
+				15FB8C631FE01F70005E1E19 /* ViewController.swift in Sources */,
+				15B537C71FE10BA1003689AE /* PersonalController.swift in Sources */,
+				157F46AE1FE052F600DBBD0A /* HomeController.swift in Sources */,
+				157F46A51FE04C6100DBBD0A /* BaseController.swift in Sources */,
+				157F46BC1FE0550900DBBD0A /* FogetPassWordController.swift in Sources */,
+				15FB8C611FE01F70005E1E19 /* AppDelegate.swift in Sources */,
+				157F46B41FE0549E00DBBD0A /* LoginController.swift in Sources */,
+				157F46AB1FE04EE400DBBD0A /* Common.swift in Sources */,
+				157F46A91FE04D2300DBBD0A /* BaseWebController.swift in Sources */,
+				157F46B81FE054C900DBBD0A /* RegisterController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15FB8C641FE01F70005E1E19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FB8C651FE01F70005E1E19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15FB8C691FE01F70005E1E19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FB8C6A1FE01F70005E1E19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15FB8C6D1FE01F70005E1E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15FB8C6E1FE01F70005E1E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15FB8C701FE01F70005E1E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A77EB677AFE2F1A43CE3B2 /* Pods-CarShare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AHJZZW3TC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CarShare/Classes/Library/AliPaySDK",
+					"$(PROJECT_DIR)/CarShare/Classes/Library/TIMSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CarShare/CarShare/CarShare-Prefix.pch";
+				INFOPLIST_FILE = CarShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CarShare/Classes/Library/WeChatSdk1.8.0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ez.CarShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15FB8C711FE01F70005E1E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE52AC0678B67318DBA9FA4F /* Pods-CarShare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AHJZZW3TC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CarShare/Classes/Library/AliPaySDK",
+					"$(PROJECT_DIR)/CarShare/Classes/Library/TIMSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CarShare/CarShare/CarShare-Prefix.pch";
+				INFOPLIST_FILE = CarShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CarShare/Classes/Library/WeChatSdk1.8.0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ez.CarShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15FB8C581FE01F70005E1E19 /* Build configuration list for PBXProject "CarShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FB8C6D1FE01F70005E1E19 /* Debug */,
+				15FB8C6E1FE01F70005E1E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FB8C6F1FE01F70005E1E19 /* Build configuration list for PBXNativeTarget "CarShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FB8C701FE01F70005E1E19 /* Debug */,
+				15FB8C711FE01F70005E1E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15FB8C551FE01F70005E1E19 /* Project object */;
+}
